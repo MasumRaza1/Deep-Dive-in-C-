@@ -15,3 +15,9 @@
 • Double pointer is used for accessing 2D arrays<br>
 </h3>
 </pre>
+
+## Why Pointer
+
+![App Screenshot](https://i.ibb.co/b53YLwZ/whypointer.png)
+
+
