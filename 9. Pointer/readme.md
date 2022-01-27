@@ -20,4 +20,13 @@
 
 ![App Screenshot](https://i.ibb.co/b53YLwZ/whypointer.png)
 
+- To Access heap memory
+- Code cannot access heap memory 
+- Pointer indirectaly access heap memory, 
+- To access file in pc, internet, printer, keybord etc.
+
+
+
+
+
 
