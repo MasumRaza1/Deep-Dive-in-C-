@@ -33,6 +33,36 @@ arrays.
 - Pointers are used to allocate memory dynamically.
 - In C++, a pointer declared to a base class could access the object of a derived class. However, a pointer to a derived class cannot access the object of a base class.
 
+## Reference
+- Reference is a Alias of variable
+- It must be initialised when declared
+- It doesn’t take any memory
+- It cannot be modified to refer other variable
+- Syntax for reference declaration is 
+- Int &y=x;
+
+-- When a variable is declared as a reference, it becomes an alternative name for an existing variable. A variable can be declared as a reference by putting ‘&’ in the declaration
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+int x = 10;
+
+// ref is a reference to x.
+int& ref = x;
+
+// Value of x is now changed to 20
+ref = 20;
+cout << "x = " << x << endl ;
+
+// Value of x is now changed to 30
+x = 30;
+cout << "ref = " << ref << endl ;
+
+return 0;
+}
 
 
 
